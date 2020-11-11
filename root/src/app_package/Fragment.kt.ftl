@@ -15,7 +15,7 @@ class ${fragmentClass} : BaseFragment() {
     private val viewModel: ${viewModelName} by viewModels()
 
     override fun getLayoutRes(): Int {
-        return R.layout.fragment_main
+        return R.layout.${layoutName}
     }
 
     override fun getViewModel(): BaseViewModel {
